@@ -1,0 +1,38 @@
+{
+  "extends": [
+    "@rocketseat/eslint-config/react"
+  ],
+  "plugins": [
+    "simple-import-sort"
+  ],
+  "rules": {
+    "simple-import-sort/imports": "error"
+  }
+}
+
+
+
+// import rocketseat from '@rocketseat/eslint-config/react';
+// import simpleImportSort from 'eslint-plugin-simple-import-sort';
+
+// export default [
+//   {
+//     // Ignorar node_modules
+//     ignores: ['node_modules/**'],
+//   },
+//   // Configurações da Rocketseat
+//   {
+//     ...rocketseat,
+//   },
+//   {
+//     files: ['**/*.{js,jsx,ts,tsx}'],
+//     plugins: {
+//       // Registrar o plugin de ordenação de imports
+//       'simple-import-sort': simpleImportSort,
+//     },
+//     rules: {
+//       // Aplicar a regra de erro para a ordenação de imports
+//       'simple-import-sort/imports': 'error',
+//     },
+//   },
+// ];
